@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SimpleBankSystemTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-02T02:57:41" hostname="DELL" time="0.72">
+  <properties/>
+  <testcase name="start" classname="SimpleBankSystemTest" time="0.72"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+1. Create an account
+2. Log into account
+0. Exit
+> 0
+Bye!
+?[1;31m
+Start test 2?[0m
+1. Create an account
+2. Log into account
+0. Exit
+> 0
+Bye!
+?[1;31m
+Start test 3?[0m
+1. Create an account
+2. Log into account
+0. Exit
+> 0
+Bye!
+?[1;31m
+Start test 4?[0m
+1. Create an account
+2. Log into account
+0. Exit
+> 0
+Bye!
+?[1;31m
+Start test 5?[0m
+1. Create an account
+2. Log into account
+0. Exit
+> 1
+Your card has been created
+Your card number:
+4000002926630797
+Your card PIN:
+9136
+1. Create an account
+2. Log into account
+0. Exit
+> 1
+Your card has been created
+Your card number:
+4000007709505769
+Your card PIN:
+9842
+1. Create an account
+2. Log into account
+0. Exit
+> 1
+Your card has been created
+Your card number:
+4000007744587228
+Your card PIN:
+7434
+1. Create an account
+2. Log into account
+0. Exit
+> 1
+Your card has been created
+Your card number:
+4000007374655691
+Your card PIN:
+5895
+1. Create an account
+2. Log into account
+0. Exit
+> 1
+Your card has been created
+Your card number:
+4000004183740319
+Your card PIN:
+1237
+1. Create an account
+2. Log into account
+0. Exit
+> 0
+Bye!
+4000004183740319
+4000007374655691
+4000007709505769
+4000007744587228
+4000002926630797
+?[1;31m
+Start test 6?[0m
+1. Create an account
+2. Log into account
+0. Exit
+> 1
+Your card has been created
+Your card number:
+4000000033064918
+Your card PIN:
+4687
+1. Create an account
+2. Log into account
+0. Exit
+> 2
+Enter your card number:
+> 4000000033064918
+Enter your PIN:
+> 4687
+You have successfully logged in!
+1. Balance
+2. Log out
+3. Do transfer
+4. Close account
+5. Logout
+0. Exit
+> 0
+Bye!
+?[1;31m
+Start test 7?[0m
+1. Create an account
+2. Log into account
+0. Exit
+> 1
+Your card has been created
+Your card number:
+4000008618791300
+Your card PIN:
+1427
+1. Create an account
+2. Log into account
+0. Exit
+> 2
+Enter your card number:
+> 4000008618791300
+Enter your PIN:
+> 3965
+Wrong card number or PIN!
+1. Create an account
+2. Log into account
+0. Exit
+> 0
+Bye!
+?[1;31m
+Start test 8?[0m
+1. Create an account
+2. Log into account
+0. Exit
+> 1
+Your card has been created
+Your card number:
+4000003629439999
+Your card PIN:
+7524
+1. Create an account
+2. Log into account
+0. Exit
+> 2
+Enter your card number:
+> 400000473374104
+Enter your PIN:
+> 7524
+Wrong card number or PIN!
+1. Create an account
+2. Log into account
+0. Exit
+> 0
+Bye!
+?[1;31m
+Start test 9?[0m
+1. Create an account
+2. Log into account
+0. Exit
+> 1
+Your card has been created
+Your card number:
+4000005156172679
+Your card PIN:
+6663
+1. Create an account
+2. Log into account
+0. Exit
+> 2
+Enter your card number:
+> 4000005156172679
+Enter your PIN:
+> 6663
+You have successfully logged in!
+1. Balance
+2. Log out
+3. Do transfer
+4. Close account
+5. Logout
+0. Exit
+> 1
+Balance: 0
+1. Balance
+2. Log out
+3. Do transfer
+4. Close account
+5. Logout
+0. Exit
+> 0
+Bye!
+]]></system-out>
+  <system-err><![CDATA[java.sql.SQLException: ResultSet closed
+	at org.sqlite.core.CoreResultSet.checkOpen(CoreResultSet.java:76)
+	at org.sqlite.jdbc3.JDBC3ResultSet.findColumn(JDBC3ResultSet.java:39)
+	at org.sqlite.jdbc3.JDBC3ResultSet.getString(JDBC3ResultSet.java:446)
+	at banking.Main.readpassword(Main.java:148)
+	at banking.Main.main(Main.java:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.invokeMain(MainMethodExecutor.java:172)
+	at org.hyperskill.hstest.testing.execution.MainMethodExecutor.lambda$launch$0(MainMethodExecutor.java:199)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></system-err>
+</testsuite>
